@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ma première intégration avec Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap"
+  rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+</script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+</script>
+</head>
+<body>
+  <header> 
+    <section class="header" id="home">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-sm fixed">
+                <!-- logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="image/logo.png" alt="logo">
+                </a>
+                
+
+                <!-- navbar -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#skill">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#process">Process</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#footer">Contact</a>                      
+                    </li>
+                </ul>
+            </nav>           
+        </div>
+        <div class="container d-flex align-items-center mb-3 h-100 ">
+            <div class="row justify-content-end">
+                <div class="col-12 col-xl-5">
+                    <h1 class="mb-4">We Design and Develop</h1>
+                    <p class="mb-4">We are a new design studio based in USA. We have over
+                        20 years of combined experience, and know a thing or two
+                        about designing websites and mobile apps.</p>
+                    <button class="text-uppercase p-3 pl-5 pr-5">Contact us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+  <section id="about">
+    <div class="container-fluid d-flex" style="min-height:420px;">
+        <div class="row align-items-center w-100 justify-content-center">
+            <div class="col-12 col-xl-7 text-center">
+                <h2 class="mb-4">About us</h2>
+                <p class="mb-4">Divide have don't man wherein air fourth. Own itself make have night won't make.<br />
+                    A you under Seed appear which good give. Own give air without fowl moveth dry first heaven
+                    fruit, dominion she'd won't very all.
+                </p>
+                <img src="image/signature.png" alt="signature" title="signature" />
+            </div>
+            
+</section>
+<section id="skill">
+    <div class="container-fluid d-flex" style="min-height:575px;">
+        <div class="row align-items-center w-100">
+
+            <div class="col-12 col-lg-6 p-5">
+                <h2 class="mb-5">Professional Skills</h2>
+                <h3 class="mb-3 text-uppercase">ux design <span class="pl-3">75%</span></h3>
+                <div class="progress  mb-5" style="height:3px">
+                    <div class="progress-bar " style="width:75%;height:3px"></div>
+                </div>
+                <h3 class="mb-3 text-uppercase">web development <span class="pl-3">90%</span></h3>
+                <div class="progress mb-5">
+                    <div class="progress-bar" style="width:90%;height:3px"></div>
+                </div>
+                <h3 class="mb-3 text-uppercase">marketing <span class="pl-3">65%</span></h3>
+                <div class="progress mb-5" style="height:3px">
+                    <div class="progress-bar" style="width:65%;height:3px"></div>                 
+                </div>               
+            </div>
+        </div>                  
+        <div class="row gap100">
+        <img src="image/paysage1.jpg" class="img-fluid"alt="laptop">
+        </div>
+</section>
+    <section class="bgblue">
+      <div class="container d-flex" style="min-height:240px;">
+          <div class="row w-100 align-items-center">
+              <div class="col-12 col-md-6 col-xl-3">
+                  <div class="row">
+                      <div class="col-2">
+                          <img src="image/portfolio.png" alt="portfolio" title="portfolio">
+                      </div>
+                      <div class="col-10 pl-4">                    
+                              <p class="mb-0"><b>548</b></p>
+                              <p class="text-uppercase bluetxt">projects completed</p>                         
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                  <div class="row">
+                      <div class="col-2">
+                          <img src="image/clock.png" alt="portfolio" title="portfolio">
+                      </div>
+                      <div class="col-10 pl-4">                     
+                              <p class="mb-0"><b>1465</b></p>
+                              <p class="text-uppercase bluetxt">working hours</p>                         
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-12 col-md-6 col-xl-3">
+                  <div class="row">
+                      <div class="col-2">
+                          <img src="image/star.png" alt="portfolio" title="portfolio">
+                      </div>
+                      <div class="col-10 pl-4">                     
+                              <p class="mb-0"><b>612</b></p>
+                              <p class="text-uppercase bluetxt">positive feedback</p>                        
+                      </div>
+                  </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-3">
+                  <div class="row">
+                      <div class="col-2">
+                          <img src="image/like.png" alt="portfolio" title="portfolio">
+                      </div>
+                      <div class="col-10 pl-4">                     
+                              <p class="mb-0"><b>735</b></p>
+                              <p class="text-uppercase bluetxt">happy clients</p>                         
+                  </div>
+                </div>
+                </div>
+            </section>
+      <section id="process">
+<div class="container-fluid">
+    <div class="row ">
+        <div class="col-12 col-md-6 col-xl-3 p-0 realisation">
+  <img src="IMAGET/benches.jpg" alt="benches" class="img-fluid">
+  <div class="survolReal w-100 h-100  align-items-center justify-content-center">
+      <img src="IMAGET/look.png">
+      </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-3 p-0 realisation">
+  <img src="IMAGET/bridge.jpg" alt="bridge"class="img-fluid">
+  <div class="survolReal w-100 h-100  align-items-center justify-content-center">
+    <img src="IMAGET/look.png">
+    </div>
+</div>
+    <div class="col-12 col-md-6 col-xl-3 p-0 realisation">
+        <img src="IMAGET/coast.jpg" alt="benches" class="img-fluid">
+        <div class="survolReal w-100 h-100  align-items-center justify-content-center">
+            <img src="IMAGET/look.png">
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 p-0 realisation">
+        <img src="IMAGET/park.jpg" alt="bridge"class="img-fluid">
+        <div class="survolReal w-100 h-100  align-items-center justify-content-center">
+          <img src="IMAGET/look.png">
+          </div>
+        </div>
+
+
+    <div class="col-12 col-md-6 col-xl-3 p-0 realisation">
+        <img src="IMAGET/rails.jpg" alt="bridge"class="img-fluid">
+        <div class="survolReal w-100 h-100  align-items-center justify-content-center">
+          <img src="IMAGET/look.png">
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 p-0 realisation">
+            <img src="IMAGET/rocks.jpg" alt="bridge"class="img-fluid">
+            <div class="survolReal w-100 h-100  align-items-center justify-content-center">
+              <img src="IMAGET/look.png">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 p-0 realisation">
+                <img src="IMAGET/sky.jpg" alt="bridge"class="img-fluid">
+                <div class="survolReal w-100 h-100  align-items-center justify-content-center">
+                  <img src="IMAGET/look.png">
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 p-0 realisation">
+                    <img src="IMAGET/traffic.jpg" alt="bridge"class="img-fluid">
+                    <div class="survolReal w-100 h-100  align-items-center justify-content-center">
+                      <img src="IMAGET/look.png">
+                      </div>
+                    </div>
+
+  </div>
+</div>
+</div>
+<section class="workload">
+    <div class="container d-flex p-5" style="min-height:100px;">
+    <div class="row w-100">
+    <div class="col-12">
+        <center><p><b><font size="4" color="gray">LOAD MORE WORK</font></b></p></center>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="Vidéo">
+        <div class="container d-flex" style="min-height:350px;">
+            <div class="row align-items-center w-100 justify-content-center">
+                <div class="col-12 col-xl-7 text-center">
+                    <h1 class="mb-4">Our Work Process</h1>
+                    <p class="graytxt">Was years it seasons was there form he in in them together over that, 
+                        third sixth gathered female creeping bearing behold years.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex" style="min-height:600px;">
+            <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/d5-0OVmNzs8" width="300" height="150"></iframe></div>
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="container py-5">
+            <div class="row pt-5">
+                <div class="col-12 col-md-6 col-xl-3 text-center mb-4">
+                    <img src="image2/pe-7s-diamond.png" alt="ux/ui design" title="ux/ui design"/>
+                    <h3 class="text-uppercase my-4">UX / UI design</h3>
+                    <p>Be set fourth land god darkness make it where in own</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center mb-4">
+                    <img src="image2/arc.png" alt="Web development" title="Web development" />
+                    <h3 class="text-uppercase my-4">Web development</h3>
+                    <p>A she'd them bring void moving third she'd kind fill</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center mb-4">
+                    <img src="image2/phone.png" alt="App mobile" title="App mobile" />
+                    <h3 class="text-uppercase my-4">App / mobile</h3>
+                    <p>Dominion man second spirit he, earth they're creeping</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center mb-4">
+                    <img src="image2/game.png" alt="Game design" title="Game design"/>
+                    <h3 class="text-uppercase my-4">Game design</h3>
+                    <p>Morning his saying moveth it multiply appear life be</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center mb-4">
+                    <img src="image2/plane.png" alt="SEO / marketing" title="SEO / marketing" />
+                    <h3 class="text-uppercase my-4">SEO / marketing</h3>
+                    <p>Give won't after land fill creeping meat you, may</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center mb-4">
+                    <img src="image2/star.png" alt="Photography" title="Photography" />
+                    <h3 class="text-uppercase my-4">Photography</h3>
+                    <p>Creepeth one seas cattle grass give moving saw give</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center mb-4">
+                    <img src="image2/magic.png" alt="Graphic design" title=">Graphic design" />
+                    <h3 class="text-uppercase my-4">Graphic design</h3>
+                    <p>Open, great whales air rule for, fourth life whales</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 text-center mb-4">
+                    <img src="image2/paint.png" alt="Illustrations" title=">Illustrations" />
+                    <h3 class="text-uppercase my-4">Illustrations</h3>
+                    <p>Whales likeness hath, man kind for them air two won't</p>
+                </div>
+            </div>
+            </div>
+</section>
+
+<section id="testimonials">
+    <div class="container d-flex" style="min-height:400px;">
+        <div class="row align-items-center w-100 justify-content-center">
+            <div class="col-12 col-xl-7 text-center">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <h4 class="mb-4">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                            to work with them on a sizable first project and am looking 
+                            forward to start the next one asap.”</h4>
+                        <p>Michael Hopkins</p>
+                        <img src="Puces/P1.png" alt="Puces1" title="Puces1">
+                        <img src="Puces/P2.png" alt="Puces2" title="Puces2">
+                        <img src="Puces/P3.png" alt="Puces3" title="Puces3">
+                      </div>
+                      
+                      <div class="carousel-item">
+                        <h4 class="mb-4">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                            to work with them on a sizable first project and am looking 
+                            forward to start the next one asap.”</h4>
+                        <p>Michael Hopkins</p>
+                        <img src="Puces/P1.png" alt="Puces1" title="Puces1">
+                        <img src="Puces/P2.png" alt="Puces2" title="Puces2">
+                        <img src="Puces/P3.png" alt="Puces3" title="Puces3">
+                      </div>
+
+                      <div class="carousel-item">
+                        <h4 class="mb-4">“ Outstanding job and exceeded all expectations. It was a pleasure 
+                            to work with them on a sizable first project and am looking 
+                            forward to start the next one asap.”</h4>
+                        <p>Michael Hopkins</p>
+                        <img src="Puces/P1.png" alt="Puces1" title="Puces1">
+                        <img src="Puces/P2.png" alt="Puces2" title="Puces2">
+                        <img src="Puces/P3.png" alt="Puces3" title="Puces3">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+        </div>       
+    </div>
+    </div>
+    <ol class="carousel-indicators mb-5">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+</div>
+</section>
+<section id="clients">
+    <div class="container" style="min-height:160px;">
+        <div class="row pt-5 w-100 justify-content-center">
+            <div class="col-12 col-xl-2">
+                <div class="mx-auto" style="width:0px;">
+                <img src="LOGO/LOGO1.png" alt="ux/ui design" title="ux/ui design"/>
+            </div>
+        </div>
+        <div class="col-12  col-xl-2">
+                <div class="mx-auto" style="width:0px;">
+                <img src="LOGO/LOGO2.png" alt="ux/ui design" title="ux/ui design"/>
+            </div>
+        </div>
+            <div class="col-12  col-xl-3">
+                <div class="mx-auto" style="width:0px;">
+                <img src="LOGO/LOGO3.png" alt="ux/ui design" title="ux/ui design"/>
+            </div>
+        </div>
+            <div class="col-12  col-xl-3">
+                <div class="mx-auto" style="width:0px;">
+                <img src="LOGO/LOGO4.png" alt="ux/ui design" title="ux/ui design"/>
+            </div>
+        </div>
+            <div class="col-12  col-xl-2">
+                <div class="mx-auto" style="width:0px;">
+                <img src="LOGO/LOGO5.png" alt="ux/ui design" title="ux/ui design"/>
+            </div>
+            </div>
+        </div>
+</section>
+<section id="formulaire">
+    <div class="container d-flex justify-content-center p-5" style="min-height: 400px;">
+   <div class="row  w-100 justify-content-center">
+       <div class="col-12 col-xl-7 p-5 text-center">
+      <h1 class="mb-4">Need a Project?</h1>
+      <p class="S-Graytxt">Let us know what you're looking for in an agency. We'll take a look and see 
+          if this could be the start of something beautiful.</p>
+          </div>
+          
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Your name">
+              </div>
+              
+              <div class="form-group col-md-6">
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Your Email">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input type="text" class="form-control" id="inputAddress" placeholder="Your Title">
+            </div>
+          
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-12">
+                <textarea class="form-control"placeholder="Your comment" id="exampleFormControlTextarea1"  rows="3"></textarea>
+              </div>
+              </div>
+            </div>
+                <div class="row justify-content-center">
+            <button class="text-uppercase p-3 pl-5 pr-5 just">Send message</button>
+        </div>
+        </form>
+</section>
+
+<section id="footer">     
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-xl-5 ">
+                <h3 class="mb-4 text-uppercase "><a class="piroll">Piroll Design, Inc.</h3></a>
+                <p><a class="footercolor">© 2017 Piroll. All rights reserved.<br />
+                    Designed by robirurk.</p></a>
+            </div>
+            <div class="col-12 col-xl-3 ">
+                <p> <a class="footercolor">hello@pirolltheme.com<br />
+                    +44 987 065 908 </p></a>
+            </div>
+                <div class="col-12 col-xl-2 ">
+                    <div class="row justify-content-start">
+                        <div class="col-6 ">
+  
+          <!-- Links -->
+  
+          <ul class="list-unstyled">
+            <li>
+                <a class="footercolor">Projects</a>
+            </li>
+            <li>
+                <a class="footercolor">About</a>
+            </li>
+            <li>
+                <a class="footercolor">Services</a>
+            </li>
+            <li>
+              <a class="footercolor">Carreer</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6">
+  
+          <!-- Links -->
+  
+          <ul class="list-unstyled">
+            <li>
+                <a class="footercolor">News</a>
+            </li>
+            <li>
+                <a class="footercolor">Events</a>
+            </li>
+            <li>
+                <a class="footercolor">Contact</a>
+            </li>
+            <li>
+                <a class="footercolor">Legals</a>
+            </li>
+          </ul>
+  </div>
+</div>
+</div>
+        <div class="row justify-content-end d-flex ">
+            <div class="col-12 col-xl-2">
+          <!-- Links -->
+  
+          <ul class="list-unstyled">
+            <li>
+                <a class="footercolor">Facebook</a>
+            </li>
+            <li>
+                <a class="footercolor">Twitter</a>
+            </li>
+            <li>
+                <a class="footercolor">Instagram</a>
+            </li>
+            <li>
+                <a class="footercolor">Dribble</a>
+            </li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+</div>
+  </footer>
+</section>
+</body>
+</html>
